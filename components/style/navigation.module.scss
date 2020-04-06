@@ -1,0 +1,23 @@
+@import '../../base/index.scss';
+.navigationWrapper {
+  width: 100vw;
+  position: relative;
+  .logo {
+    position: absolute;
+  }
+  .navigation {
+    width: 100%;
+    ul {
+      display: flex;
+      justify-content: center;
+      li {
+        padding: $magic/4 $magic/2;
+
+        a {
+          font-size: $fontSizeNormal;
+          font-weight: 700;
+        }
+      }
+    }
+  }
+}
